@@ -86,6 +86,10 @@ header > .logo {
     margin-right: auto;
 }
 
+header > a {
+    font-weight: 550;
+}
+
 header > a:last-of-type {
     margin-left: 1rem;
 }
