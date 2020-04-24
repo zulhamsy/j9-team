@@ -1,0 +1,47 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variable */
+:root {
+    --primary: #DAF1F6;
+
+    --main-padding: 0 3em;
+}
+
+/* General Settings */
+/* Mobile First Approach */
+body {
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    background: var(--primary);
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.03);
+    padding: var(--main-padding);
+    height: 3rem;
+    width: 100%;
+}
+
+header > .logo {
+    margin-right: auto;
+}
+
+header > a:last-of-type {
+    margin-left: 1rem;
+}
