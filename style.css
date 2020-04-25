@@ -23,7 +23,7 @@ html {
 
 body {
     font-size: 12px;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: var(--primary);
     width: 100vw;
     color: var(--text-color);
