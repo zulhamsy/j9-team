@@ -34,6 +34,12 @@ a {
     color: inherit;
 }
 
+header, section, footer {
+    padding: var(--main-padding);
+    width: 100%;
+    max-width: 1170px;
+}
+
 /* Utility Class */
 .hero {
     font-size: 2.5rem;
@@ -81,9 +87,7 @@ header {
     top: 0;
     z-index: 10;
     background: rgba(0,0,0,0.03);
-    padding: var(--main-padding);
     height: 3rem;
-    width: 100%;
 }
 
 header > .logo {
@@ -104,7 +108,6 @@ header > a:not(:last-of-type) {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    padding: var(--main-padding);
     height: 90vh;
 }
 
