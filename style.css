@@ -120,11 +120,11 @@ header > a:not(:last-of-type) {
     opacity: 0.6;
 }
 
-#main > svg {
+/* #main > svg {
     display: block;
     position: absolute;
     bottom: 0;
-}
+} */
 
 .hero-section > .hero {
     margin-bottom: 0.5rem;
