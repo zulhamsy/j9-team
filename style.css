@@ -83,9 +83,6 @@ header, section, footer {
 header {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 10;
     background: rgba(0,0,0,0.03);
     height: 3rem;
 }
@@ -108,7 +105,7 @@ header > a:not(:last-of-type) {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    height: 90vh;
+    height: 75vh;
 }
 
 #main > .bg-circle {
@@ -123,10 +120,22 @@ header > a:not(:last-of-type) {
     opacity: 0.6;
 }
 
+#main > svg {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
 .hero-section > .hero {
     margin-bottom: 0.5rem;
 }
 
 .hero-section > .lead {
     margin-bottom: 2rem;
+}
+
+/* Profile Section */
+#profile {
+    height: 50vh;
+    background: rgba(255, 255, 255, 0.4);
 }
