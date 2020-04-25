@@ -100,8 +100,21 @@ header > a:last-of-type {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     padding: var(--main-padding);
     height: 70vh;
+}
+
+#main > .bg-circle {
+    position: absolute;
+    top: 5rem;
+    left: -9rem;
+    z-index: -1;
+    background: #fff;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    opacity: 0.6;
 }
 
 .hero-section > .hero {
