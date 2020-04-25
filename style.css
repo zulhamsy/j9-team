@@ -79,6 +79,7 @@ header {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 10;
     background: rgba(0,0,0,0.03);
     padding: var(--main-padding);
     height: 3rem;
@@ -93,8 +94,8 @@ header > a {
     font-weight: 550;
 }
 
-header > a:last-of-type {
-    margin-left: 1rem;
+header > a:not(:last-of-type) {
+    margin-right: 1rem;
 }
 
 /* Hero Section */
