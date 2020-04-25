@@ -104,7 +104,7 @@ header > a:not(:last-of-type) {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    height: 90vh;
+    height: 95vh;
 }
 
 #main > .bg-circle {
@@ -119,11 +119,16 @@ header > a:not(:last-of-type) {
     opacity: 0.4;
 }
 
-/* #main > svg {
-    display: block;
+#main > svg {
     position: absolute;
     bottom: 0;
-} */
+    left: 0;
+}
+
+#main > svg > path {
+    fill: #fff;
+    opacity: 0.8;
+}
 
 .hero-section > .hero {
     margin-bottom: 0.5rem;
@@ -136,5 +141,5 @@ header > a:not(:last-of-type) {
 /* Profile Section */
 #profile {
     height: 50vh;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.8);
 }
