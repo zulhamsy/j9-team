@@ -37,7 +37,6 @@ a {
 header, section, footer {
     padding: var(--main-padding);
     width: 100%;
-    max-width: 1170px;
 }
 
 /* Utility Class */
