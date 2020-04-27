@@ -226,6 +226,7 @@ header > a:not(:last-of-type) {
   margin-bottom: 1rem;
   color: inherit;
   font-family: inherit;
+  width: 75%;
 }
 
 /* Footer Section*/
