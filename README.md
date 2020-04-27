@@ -27,4 +27,4 @@ Project ini terdiri atas beberapa komponen dalam rangka memenuhi standar yang di
 Semua anggota tim berkontribusi dalam pembuatan website ini, namun dikarenakan terdapat kendala pada clone repo di beberapa anggota, commit dilakukan oleh satu anggota saja
 
 ## Final Product
-Silahkan menuju [GitHub Pages] (https://zulhamsy.github.io/j9-team) atau [Netlify] (https://j-nine-team.netlify.app/)
+Silahkan menuju [GitHub Pages](https://zulhamsy.github.io/j9-team) atau [Netlify](https://j-nine-team.netlify.app/)
