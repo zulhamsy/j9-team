@@ -182,6 +182,7 @@ header > a:not(:last-of-type) {
 
 .profile-container:nth-child(even) {
   flex-direction: row-reverse;
+  border-left: 1px dotted #333;
 }
 
 .profile-container > img {
