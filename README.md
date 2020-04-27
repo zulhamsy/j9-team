@@ -1,3 +1,6 @@
+# NOTES
+Website dibangun dengan mobile-first approach, beberapa viewport selain mobile phone mungkin akan terlihat kurang baik
+
 # Team J9 Project
 Project Landing Page - Profil Team J9
 
