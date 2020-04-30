@@ -130,14 +130,17 @@ header >.container > a:not(:last-of-type) {
 
 /* Hero Section */
 #main {
+  position: relative;
+}
+
+#main > .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
     height: 95vh;
 }
 
-#main > .bg-circle {
+#main > .container > .bg-circle {
     position: absolute;
     top: 5rem;
     left: -9rem;
@@ -164,25 +167,29 @@ header >.container > a:not(:last-of-type) {
 
 /* Profile Section */
 #profile {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 100px;
-    grid-row-gap: 1.5rem;
-    background: rgba(255, 255, 255, 0.7);
-    padding-bottom: 7rem;
-    position: relative;
+  background: rgba(255, 255, 255, 0.7);
+  position: relative;
 }
 
-#profile > svg {
+#profile > .container {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+    grid-row-gap: 1.5rem; */  
+    padding-bottom: 7rem;
+}
+
+#profile > .container > svg {
   transform: scaleX(-1);
 }
 
-#profile > svg > path {
+#profile svg > path {
   fill: #DAF1F6;
 }
 
 .profile-container {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .profile-container:nth-child(even) {
@@ -218,11 +225,11 @@ header >.container > a:not(:last-of-type) {
   height: 30vh;
 }
 
-#contact > .lead {
+#contact > .container > .lead {
   margin-bottom: 0.9rem;
 }
 
-#contact > input {
+#contact > .container > input {
   display: block;
   margin: 0 auto;
   border-radius: 5px;
