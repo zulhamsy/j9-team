@@ -45,7 +45,7 @@ svg {
 /* Utility Class */
 .container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -171,11 +171,7 @@ header >.container > a:not(:last-of-type) {
   position: relative;
 }
 
-#profile > .container {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 100px;
-    grid-row-gap: 1.5rem; */  
+#profile > .container { 
     padding-bottom: 7rem;
 }
 
