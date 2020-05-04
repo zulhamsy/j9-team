@@ -1,27 +1,27 @@
-@media(min-width: 1170px) {
-    /* Header Check */
-    /* Hero Section */
-    svg {
+@media(min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* Main Section */
+    #main > .container > .bg-circle {
         display: none;
     }
 
-    #main .bg-circle {
-        display: none;
+    /* Profile */
+    #profile {
+        height: 60vh;
     }
-
-    #main > .container {
-        height: 85vh;
-    }
-
-    /* Profile Section */
     #profile > .container {
         display: flex;
-        align-items: center;
-        padding-bottom: 0;
+        flex-wrap: wrap;
     }
-    
-    #profile > .container > .profile-container {
+
+    #profile .profile-container {
         flex-direction: column;
-        flex: 1;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        flex: 1 1 33.3%;
     }
 }

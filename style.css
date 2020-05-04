@@ -224,7 +224,7 @@ header >.container > a:not(:last-of-type) {
 }
 
 #contact > .container > .lead {
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.9em;
 }
 
 #contact > .container > input {
@@ -234,7 +234,7 @@ header >.container > a:not(:last-of-type) {
   outline: none;
   border: none;
   padding: 0.2em 0.5em;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   color: inherit;
   font-family: inherit;
   width: 75%;
